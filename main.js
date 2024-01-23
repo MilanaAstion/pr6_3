@@ -67,7 +67,6 @@ const logs = [
 ];
 
 $btn1.addEventListener("click", function () {
-  console.log("Fire Charmander");
   const damage = random(25);
   enemy.changeHP(damage);
   const logMessage = `${enemy.name} получил урон: ${damage}. Осталось жизней: ${enemy.damageHP}`;
